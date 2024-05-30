@@ -7,7 +7,7 @@ gem 'mysql2',                      group: :production
 gem 'sass-rails',      '~> 4.0.0'
 gem 'haml-rails',      '~> 0.5.3'
 gem 'less-rails',      '~> 2.4.2'
-gem 'kaminari',        '~> 0.15.0'
+gem 'kaminari', '~> 0.16.2'
 gem 'uglifier',        '>= 1.3.0'
 gem 'coffee-rails',    '~> 4.0.0'
 gem 'therubyracer',    '~> 0.12.0', platforms: :ruby
@@ -34,7 +34,7 @@ gem 'acts_as_paranoid', github: 'ActsAsParanoid/acts_as_paranoid'
 gem "http_accept_language"
 gem 'rails-i18n'
 gem "i18n-js"
-gem 'kaminari-i18n'
+gem 'kaminari-i18n', '>= 0.3.0'
 gem 'devise-i18n'
 
 gem 'easy_gravatar'
