@@ -32,7 +32,7 @@ gem 'demoji'
 gem 'acts_as_paranoid', github: 'ActsAsParanoid/acts_as_paranoid'
 
 gem "http_accept_language"
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 8.0.0'
 gem "i18n-js"
 gem 'kaminari-i18n'
 gem 'devise-i18n'
