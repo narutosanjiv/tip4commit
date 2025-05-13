@@ -2,17 +2,17 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'rails',           '4.2.4'
+gem 'rails', '7.0.0'
 gem 'mysql2',                      group: :production
-gem 'sass-rails',      '~> 4.0.0'
+gem 'sass-rails', '~> 6.0.0'
 gem 'haml-rails',      '~> 0.5.3'
 gem 'less-rails',      '~> 2.4.2'
-gem 'kaminari',        '~> 0.15.0'
+gem 'kaminari', '~> 1.0.0'
 gem 'uglifier',        '>= 1.3.0'
 gem 'coffee-rails',    '~> 4.0.0'
 gem 'therubyracer',    '~> 0.12.0', platforms: :ruby
 gem 'jquery-rails',    '~> 3.0.4'
-gem 'turbolinks',      '~> 2.5.0'
+gem 'turbolinks', '~> 5.0.0'
 gem 'jquery-turbolinks'
 gem 'jbuilder',        '~> 1.5.3'
 gem 'airbrake',        '~> 3.1.15'
@@ -57,7 +57,7 @@ end
 group :test do
   gem 'simplecov'
   gem 'shoulda-matchers',   '~> 2.5.0'
-  gem 'cucumber-rails', require: false
+  gem 'cucumber-rails', '>= 1.4.3', require: false
   gem 'database_cleaner'
   gem 'rspec-activemodel-mocks'
   gem 'minitest'
