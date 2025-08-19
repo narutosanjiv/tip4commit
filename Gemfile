@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'rails',           '4.2.4'
+gem 'rails', '7.1.5.2'
 gem 'mysql2',                      group: :production
 gem 'sass-rails',      '~> 4.0.0'
 gem 'haml-rails',      '~> 0.5.3'
@@ -26,7 +26,7 @@ gem 'twitter-bootstrap-rails',    github: 'seyhunak/twitter-bootstrap-rails', br
 gem 'bootstrap_form', github: 'bootstrap-ruby/rails-bootstrap-forms'
 gem 'sdoc', group: :doc, require: false
 gem 'cancancan'
-gem 'dusen'
+gem 'dusen', '>= 0.4.11'
 gem 'render_csv'
 gem 'demoji'
 gem 'acts_as_paranoid', github: 'ActsAsParanoid/acts_as_paranoid'
@@ -34,7 +34,7 @@ gem 'acts_as_paranoid', github: 'ActsAsParanoid/acts_as_paranoid'
 gem "http_accept_language"
 gem 'rails-i18n'
 gem "i18n-js"
-gem 'kaminari-i18n'
+gem 'kaminari-i18n', '>= 0.3.0'
 gem 'devise-i18n'
 
 gem 'easy_gravatar'
@@ -57,7 +57,7 @@ end
 group :test do
   gem 'simplecov'
   gem 'shoulda-matchers',   '~> 2.5.0'
-  gem 'cucumber-rails', require: false
+  gem 'cucumber-rails', '>= 1.4.3', require: false
   gem 'database_cleaner'
   gem 'rspec-activemodel-mocks'
   gem 'minitest'
